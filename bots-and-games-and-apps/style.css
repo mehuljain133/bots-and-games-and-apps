@@ -1,0 +1,34 @@
+body{
+   text-align: center; }
+#apps{
+    background-color: dimgray;
+    width: 100%;
+    height: 800px;
+}
+#games{
+    background-color: powderblue;
+    width: 100%;
+    height: 800px;
+}
+#bots{
+    background-color: lavender;
+    width: 100%;
+    height: 800px;
+}
+h1{
+    font-size:40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+width: 1000px;
+    height: 1px;
+    background-color: black;
+    margin: 8px auto;
+}
